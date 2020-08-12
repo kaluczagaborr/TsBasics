@@ -1,15 +1,14 @@
-function add(n1: number, n2: number, ShowResult: boolean){
-
-    if(ShowResult == true) console.log(n1 + n2)
-    else return n1+n2;
-
+const person = {
     
+    name: "Gobey",
+    age: 26,
+    hobbies: [["box"],"gym"],
+    role: [2,'author']
 
-}
+};
 
-const number1 = 23.7;
-const number2 = 6;
+person.role.push("x");
 
-const printRes = true;
-add(number1,number2,printRes);
+console.log(person.name);
 
+console.log(person.role);

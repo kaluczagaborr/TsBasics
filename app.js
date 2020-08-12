@@ -1,10 +1,9 @@
-function add(n1, n2, ShowResult) {
-    if (ShowResult == true)
-        console.log(n1 + n2);
-    else
-        return n1 + n2;
-}
-var number1 = 23.7;
-var number2 = 6;
-var printRes = true;
-add(number1, number2, printRes);
+var person = {
+    name: "Gobey",
+    age: 26,
+    hobbies: [["box"], "gym"],
+    role: [2, 'author']
+};
+person.role.push("x");
+console.log(person.name);
+console.log(person.role);
